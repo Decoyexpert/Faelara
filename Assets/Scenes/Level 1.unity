@@ -2666,6 +2666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Human
       objectReference: {fileID: 0}
+    - target: {fileID: 1007473825163446686, guid: a6826f7967017474ca0bb815415b5a06, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2203334126920746829, guid: a6826f7967017474ca0bb815415b5a06, type: 3}
       propertyPath: manaBar
       value: 
@@ -2687,8 +2691,12 @@ PrefabInstance:
       value: -0.15
       objectReference: {fileID: 0}
     - target: {fileID: 6013447455093469125, guid: a6826f7967017474ca0bb815415b5a06, type: 3}
+      propertyPath: jumpForce
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013447455093469125, guid: a6826f7967017474ca0bb815415b5a06, type: 3}
       propertyPath: moveSpeed
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8267652605234258009, guid: a6826f7967017474ca0bb815415b5a06, type: 3}
       propertyPath: m_LocalPosition.x

@@ -60,7 +60,8 @@ public class MovementComponent : MonoBehaviour
     public void Jump()
     {
         //rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode2D.Impulse);
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse); //more readable - valery
+         //rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse); //more readable - valery
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
     public void Fly()
     {
